@@ -31,7 +31,8 @@ The images you use should be placed in:
 ```
 
 ## Pretrained Weights
-Our pre-trained model is available at ```./pretrained_weights```.
+Our pre-trained model is available at [Google Drive]().
+After downloading, please place the pre-trained model in ```./pretrained_weights```.
 
 ## Testing
 You can test the fusion performance of the model using the following command, after correctly placing the test images and the pretrained model:
