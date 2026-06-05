@@ -3,21 +3,16 @@
 
 **A VLM guided network coupling degradation modeling for degradation aware infrared and visible image fusion (Scientific Reports 2026)**
 
-![Framework](figs/Network.jpg)
-
 ## Prepare Your Dataset
-The dataset used in this paper can be downloaded at:
-[EMS](https://github.com/XunpengYi/EMS) | [LLVIP](https://bupt-ai-cz.github.io/LLVIP/) | [MSRS](https://github.com/Linfeng-Tang/MSRS) | [M3FD](https://github.com/dlut-dimt/TarDAL) 
-
 The images you use should be placed in:
 ```bash
-#For Test (with degradations)
+#For Test (Image Fusion with degradations)
     dataset/
             {dataset}/
                       {task}/
                             Infrared/
                             Visible/
-#For Train (with degradations)
+#For Train (Image Fusion with degradations)
     dataset/
             Text_Train/
                         {Degradation} (eg: VI_lowlight_IR_lowcontrast)/
@@ -31,7 +26,7 @@ The images you use should be placed in:
 ```
 
 ## Pretrained Weights
-Our pre-trained model is available at [Google Drive]().
+Our pre-trained model is available at [Google Drive](https://drive.google.com/file/d/1KymqqQ0jIHGmvnBMcsHP-_vYb3KuHjyE/view?usp=sharing).
 After downloading, please place the pre-trained model in ```./pretrained_weights```.
 
 ## Testing
