@@ -3,7 +3,7 @@
 
 **A VLM guided network coupling degradation modeling for degradation aware infrared and visible image fusion (Scientific Reports 2026)**
 
-![Framework](fig/Network.jpg)
+![Framework](figs/Network.jpg)
 
 ## Prepare Your Dataset
 The dataset used in this paper can be downloaded at:
@@ -42,12 +42,12 @@ python test_from_dataset.py
 ## Visual Results
 A few qualitative examples are shown below.
 
-![Qualitative_Comparison](fig/Qualitative_Degrade.jpg)
+![Qualitative_Comparison](figs/Qualitative_Degrade.jpg)
 
 ## Quantitative Results
 Quantitative comparison examples are shown below. Higher values of all other metrics indicate better performance.
 
-![Quantitative Comparison](fig/Quantitative_Degrade.jpg)
+![Quantitative Comparison](figs/Quantitative_Degrade.jpg)
 
 ## Training your own model
 Put your training data, and run:
