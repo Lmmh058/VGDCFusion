@@ -20,7 +20,7 @@ The images you use should be placed in:
 ```
 
 ## Pretrained Weights
-Our pre-trained model is available at [Google Drive](https://drive.google.com/file/d/1KymqqQ0jIHGmvnBMcsHP-_vYb3KuHjyE/view?usp=sharing).
+Our pre-trained model is available at [Google Drive](https://drive.google.com/file/d/1NfYU3BmP8ZJVX8GKb88Dkg-bXXAmt1pl/view?usp=sharing).
 After downloading, please place the pre-trained model in ```./pretrained_weights```.
 
 ## Testing
