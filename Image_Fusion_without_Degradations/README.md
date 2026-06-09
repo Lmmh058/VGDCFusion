@@ -14,10 +14,9 @@ The images you use should be placed in:
 
 #For Train (Image Fusion without degradations)
     Train/
-            Text_Train/
-                        ir/
-                        vi/
-                        text.txt
+            ir/
+            vi/
+            text.txt
 ```
 
 ## Pretrained Weights
