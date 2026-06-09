@@ -6,23 +6,18 @@
 ## Prepare Your Dataset
 The images you use should be placed in:
 ```bash
-#For Test (Image Fusion with degradations)
+#For Test (Image Fusion without degradations)
     dataset/
             {dataset}/
-                      {task}/
-                            Infrared/
-                            Visible/
-#For Train (Image Fusion with degradations)
-    dataset/
+                        Infrared/
+                        Visible/
+
+#For Train (Image Fusion without degradations)
+    Train/
             Text_Train/
-                        {Degradation} (eg: VI_lowlight_IR_lowcontrast)/
-                                                                       train/
-                                                                               Infrared/
-                                                                               Infrared_gt/
-                                                                               Visible/
-                                                                               Visible_gt/
-                                                                               text_ir.txt
-                                                                               text_vi.txt
+                        ir/
+                        vi/
+                        text.txt
 ```
 
 ## Pretrained Weights
@@ -38,12 +33,12 @@ python test_from_dataset.py
 ## Visual Results
 A few qualitative examples are shown below.
 
-![Qualitative_Comparison](figs/Qualitative_Degrade.jpg)
+![Qualitative_Comparison](figs/Qualitative_Normal.jpg)
 
 ## Quantitative Results
 Quantitative comparison examples are shown below. Higher values of all other metrics indicate better performance.
 
-![Quantitative Comparison](figs/Quantitative_Degrade.jpg)
+![Quantitative Comparison](figs/Quantitative_Normal.jpg)
 
 ## Training your own model
 Put your training data, and run:
